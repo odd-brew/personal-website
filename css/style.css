@@ -129,6 +129,8 @@ html{scroll-behavior:smooth}
 @media (min-width:768px){.principles{grid-template-columns:1fr 1fr}}
 .principles article{padding:22px}
 .principles p{color:var(--muted);margin:0}
+.sec-intro{color:var(--muted);margin:0 0 16px}
+@media (min-width:768px){.principles article:last-child:nth-child(odd){grid-column:1/-1}}
 .cta-band{margin-top:32px;padding:24px 0;border-top:1px solid var(--sep);text-align:left}
 /* form */
 .contact-form{padding:8px 20px 22px;max-width:640px;margin:24px 0}
@@ -143,4 +145,15 @@ input:focus-visible,textarea:focus-visible{border-color:var(--accent)}
 .site-footer .wrap{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px}
 .site-footer .foot-name{color:var(--text);font-weight:600}
 .site-footer .foot-line{color:var(--muted)}
+/* home additions */
+.home-sel{margin-top:40px}
+.home-sel h2{font-size:22px;margin:0 0 6px}
+.more{margin:16px 0 0}
+.more a{font-weight:600}
+.home-lead{margin-top:40px}
+.home-lead h2{margin:0 0 12px}
+.home-lead .panel .lead-line{font-size:20px;font-weight:600;letter-spacing:-.01em;line-height:1.35;margin:0 0 14px}
+.home-lead .panel .chips{margin-bottom:0}
+.site-footer .foot-link{font-weight:600}
+@media (hover:hover){.home-sel .hl:hover .go{transform:translateX(4px)}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
